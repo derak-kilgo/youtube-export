@@ -1,0 +1,5 @@
+vendor/
+videos/
+composer.phar
+config.php
+.idea/

@@ -1,0 +1,15 @@
+{
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://packages.zendframework.com/"
+        }
+    ],
+    "name": "AustinTechVideos/ExportChannel",
+    "description": "description_text",
+    "license": "GPL-2.0+",
+    "minimum-stability": "stable",
+    "require": {
+        "zendframework/zendframework1": "1.*"
+    }
+}
