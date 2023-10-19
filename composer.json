@@ -5,8 +5,8 @@
             "url": "https://packages.zendframework.com/"
         }
     ],
-    "name": "AustinTechVideos/ExportChannel",
-    "description": "description_text",
+    "name": "austin-tech-videos/export-channel",
+    "description": "Tool for exporting videos en mass from our youtube channel.",
     "license": "GPL-2.0+",
     "minimum-stability": "stable",
     "require": {
