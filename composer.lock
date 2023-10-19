@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e57d1e2a8138324304076ff36cad91bd",
+    "content-hash": "a1bcc5012d06fdc10275f543bc3119f6",
     "packages": [
         {
             "name": "zendframework/zendframework1",
@@ -19,6 +19,13 @@
                 "url": "https://packages.zendframework.com/composer/zendframework-zendframework1-1.12.20-32a8a9.zip",
                 "reference": "1409294a30b6e944c43c5765678c8c7a263694c1",
                 "shasum": "2ac1f5118f6752c132756e8d2fd914d1eecd0eaf"
+            },
+            "archive": {
+                "exclude": [
+                    "/demos",
+                    "/documentation",
+                    "/tests"
+                ]
             },
             "require": {
                 "php": ">=5.2.11"
@@ -41,13 +48,6 @@
             "include-path": [
                 "library/"
             ],
-            "archive": {
-                "exclude": [
-                    "/demos",
-                    "/documentation",
-                    "/tests"
-                ]
-            },
             "license": [
                 "BSD-3-Clause"
             ],
@@ -68,5 +68,5 @@
     "prefer-lowest": false,
     "platform": [],
     "platform-dev": [],
-    "plugin-api-version": "2.3.0"
+    "plugin-api-version": "1.1.0"
 }
